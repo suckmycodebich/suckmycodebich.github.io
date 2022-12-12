@@ -1,0 +1,117 @@
+html { 
+    scroll-behavior: smooth;
+  }
+  *{
+  box-sizing: border-box;
+  }
+  body {
+    
+    background-color: #010a13;
+    background-image: linear-gradient(#010a13,#061e35);
+    color: #C9AA71;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+  blockquote{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: .5em;
+  }
+  .map{
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+  .main{
+    padding: 0 1em;
+  }
+  .footer {
+    text-align: center;
+    padding: 1em;
+  }
+  .bg-base{
+    background: linear-gradient(#092949,#092949) fixed;
+  }
+  .header h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5em 0 .5em 0;
+  }
+  
+  .header{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-shadow: 0 -2px 8px #e2be7b;
+  }
+  
+  .footer{
+    padding: 1em 0;
+}
+
+.footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.footer ul, .footer dl{
+    line-height: 1.7em;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a :visited{
+    color: rgb(255, 214, 120);
+}
+.footer{
+    text-align: center;
+    padding: 1em;
+    }
+    
+  .topnav{
+    border: 1px solid blue;
+  }
+  .innermenu{
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background-image: linear-gradient(#010a13,#061e35);
+  }
+  
+  .innermenu li{
+    text-align: center;
+    padding: .3em 0;
+    border-top: 1px solid rgb(34, 33, 0);
+  }
+  .innermenu a{
+    display: block;
+   color: #C9AA71;
+   text-decoration: none;
+  }
+  
+  footer{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }  
+  .wikitable {
+    margin: 1em 0;
+    border: 1px solid #5f5702;
+    border-collapse: collapse;
+}
+td{
+    border:1px solid #5f5702;
+}

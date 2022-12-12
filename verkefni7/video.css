@@ -1,0 +1,94 @@
+.gluggi {
+
+    width:18em;
+
+    height:10.5em;
+
+    margin-bottom: 1em;
+
+    padding-bottom: 1em;
+
+  }
+
+ 
+
+@media screen and (min-width: 25em) {
+
+    .gluggi {
+
+      width:24em;
+
+      height:13em;
+
+    }
+
+ }
+
+ 
+
+@media screen and (min-width: 30em) {
+
+    .gluggi {
+
+     width:29em;
+
+     height:15.75em;
+
+   }
+
+ }
+
+ 
+
+@media screen and (min-width: 37.5em) {
+
+    .gluggi {
+
+      width:35em;
+
+      height:19.7em;
+
+    }
+
+ }
+
+ 
+
+ @media screen and (min-width:48em){
+
+  .gluggi {
+
+    width:46em;
+
+    height:24.6em;
+
+  }
+
+}
+
+@media screen and (min-width:60em){
+
+  .gluggi {
+
+    width:58em;
+
+    height:33em;
+
+  }
+
+}
+
+@media screen and (min-width: 80em) {
+
+    .gluggi {
+
+      width:78em;
+
+      height:44em;
+
+    }
+
+  }
+
+ 
+
